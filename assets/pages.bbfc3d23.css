@@ -2,7 +2,24 @@
    Startseite, die Flugliste darunter und die Blätterleiste am Seitenende.
    site.css bleibt unverändert — die Offline-Einzeldatei benutzt diese Datei nicht. */
 
-/* Kapitel, auf dem man gerade steht */
+/* Kapitelleiste: zehn ausgeschriebene Titel brauchen rund 1500 px, die Leiste hat
+   knapp 1000 — es wurde also mitten in Kapitel VII abgeschnitten. Sichtbar bleibt
+   die Nummer, ausgeschrieben nur das Kapitel, auf dem man gerade steht. Der Titel
+   verschwindet dabei nicht aus dem Dokument, damit Screenreader ihn weiter
+   vorlesen und der Tooltip ihn zeigt. */
+.top nav a .nt{
+  position:absolute;width:1px;height:1px;overflow:hidden;
+  clip-path:inset(50%);white-space:nowrap;
+}
+.top nav a.here .nt{position:static;width:auto;height:auto;overflow:visible;clip-path:none}
+.top nav a b{margin-right:0}
+.top nav a.here b{margin-right:4px}
+
+/* Falls es auf schmalen Geräten doch scrollt: am rechten Rand ausblenden, damit
+   sichtbar ist, dass dort noch etwas weitergeht. Wenn alles passt, liegt dort
+   ohnehin nur Leerraum. */
+.top nav{mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+
 .top nav a.here{background:color-mix(in srgb,var(--acc) 12%,transparent);color:var(--ink)}
 .top nav a.here b{color:var(--acc)}
 .brand a{color:inherit;text-decoration:none}

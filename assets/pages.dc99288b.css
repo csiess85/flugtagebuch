@@ -1,0 +1,73 @@
+/* Ergänzungen, die nur die mehrseitige Website braucht: Kapitelübersicht auf der
+   Startseite, die Flugliste darunter und die Blätterleiste am Seitenende.
+   site.css bleibt unverändert — die Offline-Einzeldatei benutzt diese Datei nicht. */
+
+/* Kapitel, auf dem man gerade steht */
+.top nav a.here{background:color-mix(in srgb,var(--acc) 12%,transparent);color:var(--ink)}
+.top nav a.here b{color:var(--acc)}
+.brand a{color:inherit;text-decoration:none}
+
+/* ---- Startseite: die zehn Kapitel als Karten ---- */
+.chcards{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:18px;padding-top:56px;
+}
+.chcard{
+  display:block;text-decoration:none;color:inherit;
+  background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px 24px;
+  box-shadow:var(--shadow);transition:border-color .15s,transform .15s;
+}
+.chcard:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));transform:translateY(-2px)}
+.chcard h2{font-family:var(--serif);font-size:24px;line-height:1.15;margin:6px 0 4px;letter-spacing:-.01em}
+.chcard .ch-i{font-size:14.5px;margin-top:10px}
+
+.lst-h{
+  font-family:var(--serif);font-size:26px;margin:72px 0 0;padding-top:24px;
+  border-top:2px solid var(--ink);
+}
+
+/* ---- Startseite: alle Flüge als Zeilen ---- */
+.chl{padding-top:34px}
+.chl-h{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:0 0 8px;font-weight:700}
+.chl-h a{color:inherit;text-decoration:none}
+.chl-h a:hover{color:var(--acc)}
+.chl-h b{color:var(--acc);margin-right:6px;font-family:var(--serif);letter-spacing:0}
+
+/* .fr überschreibt die Kartenoptik von .fl — die Klasse .fl bleibt, weil ui.js
+   danach filtert und zählt. */
+.fl.fr{
+  display:flex;align-items:baseline;gap:14px;
+  margin:0;padding:9px 12px;border:0;border-bottom:1px solid var(--line2);
+  border-radius:8px;box-shadow:none;background:transparent;
+  color:inherit;text-decoration:none;
+}
+.fl.fr:hover{background:var(--bg2);border-bottom-color:var(--line)}
+.fr-n{font-family:var(--mono);font-size:12px;color:var(--ink3);min-width:26px;text-align:right}
+.fr-m{flex:1;min-width:0}
+.fr-m b{font-weight:600;font-size:15px}
+.fr-r{display:block;font-size:12.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fr-d{font-family:var(--mono);font-size:12px;color:var(--ink3);white-space:nowrap}
+.fr-i{min-width:44px;text-align:right;color:var(--acc);font-size:12px;font-style:normal}
+.fr-i i{font-style:normal;margin-left:3px}
+@media(max-width:620px){
+  .fr-r{display:none}
+  .fl.fr{gap:10px;padding:10px 6px}
+}
+
+/* ---- Blättern zwischen den Kapiteln ---- */
+.pager{display:flex;gap:14px;margin-top:70px;padding-top:26px;border-top:1px solid var(--line)}
+.pg{
+  flex:1;display:block;text-decoration:none;color:inherit;
+  border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--bg2);
+  transition:border-color .15s;
+}
+.pg:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line))}
+.pg span{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.pg b{font-family:var(--serif);font-size:17px;font-weight:600;line-height:1.2}
+.pg-n{text-align:right}
+.pg-up{text-align:center;flex:0 1 200px}
+.pg-x{flex:1}
+@media(max-width:700px){
+  .pager{flex-wrap:wrap}
+  .pg-up{order:3;flex:1 0 100%;text-align:center}
+}

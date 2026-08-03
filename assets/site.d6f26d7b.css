@@ -168,12 +168,8 @@ body.map-full-open{overflow:hidden}
 .gal .ph{margin:0}
 .gal .ph .im{aspect-ratio:4/3}
 .i-allgaeu{background-image:url(../img/allgaeu.jpg)}
-.i-aquila{background-image:url(../img/aquila.jpg)}
-.i-aquila2{background-image:url(../img/aquila2.jpg)}
-.i-aquila_cockpit{background-image:url(../img/aquila_cockpit.jpg)}
 .i-bodensee{background-image:url(../img/bodensee.jpg)}
 .i-buckligewelt{background-image:url(../img/buckligewelt.jpg)}
-.i-c172{background-image:url(../img/c172.jpg)}
 .i-c172_panel{background-image:url(../img/c172_panel.jpg)}
 .i-chiemsee{background-image:url(../img/chiemsee.jpg)}
 .i-dachstein{background-image:url(../img/dachstein.jpg)}
@@ -213,7 +209,6 @@ body.map-full-open{overflow:hidden}
 .i-neusiedlersee2{background-image:url(../img/neusiedlersee2.jpg)}
 .i-night_city{background-image:url(../img/night_city.jpg)}
 .i-night_rwy{background-image:url(../img/night_rwy.jpg)}
-.i-pa28{background-image:url(../img/pa28.jpg)}
 .i-passau{background-image:url(../img/passau.jpg)}
 .i-piran{background-image:url(../img/piran.jpg)}
 .i-piran2{background-image:url(../img/piran2.jpg)}
@@ -232,6 +227,12 @@ body.map-full-open{overflow:hidden}
 .i-wienerneustadt{background-image:url(../img/wienerneustadt.jpg)}
 .i-wienerwald{background-image:url(../img/wienerwald.jpg)}
 .i-wolken{background-image:url(../img/wolken.jpg)}
+.i-oe-akw{background-image:url(../img/oe-akw.jpg)}
+.i-oe-aki{background-image:url(../img/oe-aki.jpg)}
+.i-oe-dcl{background-image:url(../img/oe-dcl.jpg)}
+.i-oe-kbs{background-image:url(../img/oe-kbs.jpg)}
+.i-d-elfh{background-image:url(../img/d-elfh.jpg)}
+.i-d-eutc{background-image:url(../img/d-eutc.jpg)}
 
 
 /* ---------- Videos ---------- */

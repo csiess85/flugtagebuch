@@ -1,4 +1,7 @@
 (function(){
+  /* Sichtbare Texte kommen aus der Seite (window.__I18N__); ohne sie bleibt
+     die deutsche Vorgabe stehen. */
+  var T=window.__I18N__||{};
   var r=document.documentElement, tb=document.getElementById('theme');
   var st=localStorage.getItem('ft-theme'); if(st) r.setAttribute('data-theme',st);
   tb.onclick=function(){
@@ -32,7 +35,8 @@
       var vis=ch.querySelectorAll('.fl:not(.hide)').length;
       ch.style.display = vis? '' : 'none';
     });
-    cnt.textContent = n===1 ? '1 Flug' : n+' Flüge';
+    cnt.textContent = n===1 ? (T.count_one||'1 Flug')
+                            : (T.count_many||'{n} Flüge').replace('{n}',n);
     empty.style.display = n? 'none':'block';
   }
 
@@ -52,7 +56,7 @@
   document.querySelectorAll('.vid-f').forEach(function(b){
     if(!canEmbed){
       b.classList.add('vid-ext');
-      b.title='Öffnet auf YouTube';
+      b.title=T.opens_youtube||'Öffnet auf YouTube';
       var x=document.createElement('span');
       x.className='vid-x'; x.textContent='↗ YouTube';
       b.appendChild(x);
@@ -64,7 +68,7 @@
       }
       var f=document.createElement('iframe');
       f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.v+'?autoplay=1&rel=0';
-      f.title=b.dataset.t||'Video';
+      f.title=b.dataset.t||T.video||'Video';
       f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
       f.allowFullscreen=true;
       b.replaceWith(f);

@@ -1,4 +1,5 @@
-/* Interaktive Flugkarte: Canvas, Offline-Vektor-Basemap, Zoom/Pan/Pinch. */
+/* Interaktive Flugkarte: Canvas, Offline-Vektor-Basemap, Zoom/Pan/Pinch.
+   Sichtbare Texte kommen aus window.__I18N__, sonst deutsch. */
 (function () {
   var BM = window.__BM__, TR = window.__TR__;
   var R2D = 180 / Math.PI, D2R = Math.PI / 180;
@@ -62,6 +63,8 @@
     return [x0, y0, x1, y1];
   })();
 
+  function T(k, fallback) { var d = window.__I18N__; return (d && d[k]) || fallback; }
+
   function fmtNum(n) { return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); }
 
   /* ================================================================= Karte */
@@ -85,22 +88,22 @@
     var cv = document.createElement('canvas');
     cv.className = 'mapcv';
     cv.setAttribute('role', 'img');
-    cv.setAttribute('aria-label', 'Interaktive Flugkarte — ziehen zum Verschieben, Mausrad zum Zoomen');
+    cv.setAttribute('aria-label', T('map_aria', 'Interaktive Flugkarte — ziehen zum Verschieben, Mausrad zum Zoomen'));
     cv.tabIndex = 0;
     this.cv = cv; this.ctx = cv.getContext('2d');
 
     var ui = document.createElement('div');
     ui.className = 'mapui';
     ui.innerHTML =
-      '<button type="button" data-a="in"  title="Vergrößern (+)">+</button>' +
-      '<button type="button" data-a="out" title="Verkleinern (−)">−</button>' +
-      '<button type="button" data-a="fit" title="Auf Flug einpassen">⌖</button>' +
-      '<button type="button" data-a="full" title="Vollbild (F)">⛶</button>';
+      '<button type="button" data-a="in"  title="' + T('map_in', 'Vergrößern (+)') + '">+</button>' +
+      '<button type="button" data-a="out" title="' + T('map_out', 'Verkleinern (−)') + '">−</button>' +
+      '<button type="button" data-a="fit" title="' + T('map_fit', 'Auf Flug einpassen') + '">⌖</button>' +
+      '<button type="button" data-a="full" title="' + T('map_full', 'Vollbild (F)') + '">⛶</button>';
     this.ui = ui;
 
     var rd = document.createElement('div'); rd.className = 'mapread'; this.rd = rd;
     var hint = document.createElement('div'); hint.className = 'maphint';
-    hint.textContent = 'Klicken zum Zoomen';
+    hint.textContent = T('map_hint', 'Klicken zum Zoomen');
     this.hint = hint;
 
     var wrap = host.querySelector('.mapwrap');

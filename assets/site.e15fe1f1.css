@@ -39,6 +39,13 @@ a{color:var(--acc)}
 .tbtn{background:var(--bg2);border:1px solid var(--line);color:var(--ink2);border-radius:7px;
   padding:5px 10px;font:inherit;font-size:13px;cursor:pointer}
 .tbtn:hover{color:var(--ink);border-color:var(--ink3)}
+/* Sprachumschalter: dieselbe Seite in der anderen Sprache, sonst die Startseite. */
+.lang{display:flex;align-items:stretch;background:var(--bg2);border:1px solid var(--line);
+  border-radius:7px;overflow:hidden;font-size:12px;font-weight:700;letter-spacing:.04em}
+.lang a,.lang span{padding:5px 8px;color:var(--ink3);text-decoration:none}
+.lang a:hover{color:var(--ink);background:var(--line2)}
+.lang .here{color:var(--acc);background:var(--line2)}
+.lang>*+*{border-left:1px solid var(--line)}
 
 /* ---------- hero ---------- */
 .hero{max-width:1180px;margin:0 auto;padding:64px 20px 40px}

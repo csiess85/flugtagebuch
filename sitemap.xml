@@ -111,4 +111,14 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://csiess85.github.io/flugtagebuch/kapitel/10-bodensee-und-der-lange-weg-heim/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://csiess85.github.io/flugtagebuch/en/chapters/10-lake-constance-and-the-long-way-home/"/>
   </url>
+  <url>
+    <loc>https://csiess85.github.io/flugtagebuch/kapitel/11-ein-vormittag-nach-zell-am-see/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://csiess85.github.io/flugtagebuch/kapitel/11-ein-vormittag-nach-zell-am-see/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://csiess85.github.io/flugtagebuch/en/chapters/11-a-morning-to-zell-am-see/"/>
+  </url>
+  <url>
+    <loc>https://csiess85.github.io/flugtagebuch/en/chapters/11-a-morning-to-zell-am-see/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://csiess85.github.io/flugtagebuch/kapitel/11-ein-vormittag-nach-zell-am-see/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://csiess85.github.io/flugtagebuch/en/chapters/11-a-morning-to-zell-am-see/"/>
+  </url>
 </urlset>

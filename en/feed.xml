@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-  <title>Flightlog — 92 VFR flights</title>
+  <title>Flightlog — 94 VFR flights</title>
   <link>https://csiess85.github.io/flugtagebuch/en/</link>
-  <description>92 VFR flights between March 2025 and July 2026, told as a blog.</description>
+  <description>94 VFR flights between March 2025 and August 2026, told as a blog.</description>
   <language>en</language>
+  <item>
+    <title>The way back, north of the mountains</title>
+    <link>https://csiess85.github.io/flugtagebuch/en/chapters/11-a-morning-to-zell-am-see/#f94</link>
+    <guid isPermaLink="false">en-flug-94</guid>
+    <pubDate>Tue, 04 Aug 2026 10:53:00 +0000</pubDate>
+    <description>10:53 block off, 95 minutes after landing. Back to Bad Vöslau, but not the same way: 338 km, 98 minutes, 9,292 ft — past the mountains to the north instead of straight through them.Out over Kaprun, then northeast: the Gosaukamm, the Wolfgangsee, the Attersee, the Traunsee. From Gmunden on it is the Alpine foreland under the wing — Steyr, the Danube at Ybbs, St. Pölten — then the Vienna Woods and …</description>
+  </item>
+  <item>
+    <title>Across the Alps in the PA-28</title>
+    <link>https://csiess85.github.io/flugtagebuch/en/chapters/11-a-morning-to-zell-am-see/#f93</link>
+    <guid isPermaLink="false">en-flug-93</guid>
+    <pubDate>Tue, 04 Aug 2026 07:37:00 +0000</pubDate>
+    <description>07:37 block off, five days after the first hour on the type. 316 km, 92 minutes, 9,039 ft — across the Alps to Zell am See in the PA-28.For long stretches the route is the same one as in March: the Hohe Wand, Mariazell, the Erzberg, the Gesäuse, the Ennstal, the Grimming. After that further north than back then — over the Hallstätter See and the Gosaukamm, then along the Hochkönig and past …</description>
+  </item>
   <item>
     <title>A new type at the end</title>
     <link>https://csiess85.github.io/flugtagebuch/en/chapters/10-lake-constance-and-the-long-way-home/#f92</link>
     <guid isPermaLink="false">en-flug-92</guid>
     <pubDate>Thu, 30 Jul 2026 13:27:00 +0000</pubDate>
-    <description>The last entry in the book, and one more new thing: OE-KBS, a Piper PA-28 Archer. The third type, with a new name on the right — T.181 km, 67 minutes, six landings, 4,878 ft, out over the Hohe Wand and back. Converting to a new type always starts the same way: circuits, landings, getting a feel for it.The PA-28 is again a different animal from the Aquila and the Cessna: a low-wing machine made of …</description>
+    <description>One more new thing: OE-KBS, a Piper PA-28 Archer. The third type, with a new name on the right — T.181 km, 67 minutes, six landings, 4,878 ft, out over the Hohe Wand and back. Converting to a new type always starts the same way: circuits, landings, getting a feel for it.The PA-28 is again a different animal from the Aquila and the Cessna: a low-wing machine made of sheet metal, broad, …</description>
   </item>
   <item>
     <title>The long way home: 550 kilometres across Austria</title>
@@ -101,7 +115,7 @@
     <link>https://csiess85.github.io/flugtagebuch/en/chapters/09-across-the-borders/#f79</link>
     <guid isPermaLink="false">en-flug-79</guid>
     <pubDate>Wed, 18 Mar 2026 16:42:00 +0000</pubDate>
-    <description>221 km in 68 minutes, alone, from 16:42. Across the Vienna Woods, past Vienna, out to Lake Neusiedl, back over the Leitha mountains. The only one of all 92 lines in the logbook to read: day/night.The flight starts in daylight and ends in darkness — night from 17:35, the landing at 18:01 counts as a night landing. This is the first practical use of the rating finished four weeks earlier: no longer …</description>
+    <description>221 km in 68 minutes, alone, from 16:42. Across the Vienna Woods, past Vienna, out to Lake Neusiedl, back over the Leitha mountains. The only one of all 94 lines in the logbook to read: day/night.The flight starts in daylight and ends in darkness — night from 17:35, the landing at 18:01 counts as a night landing. This is the first practical use of the rating finished four weeks earlier: no longer …</description>
   </item>
   <item>
     <title>Over the Tauern to Zell am See</title>
@@ -200,20 +214,6 @@
     <guid isPermaLink="false">en-flug-65</guid>
     <pubDate>Mon, 29 Dec 2025 08:48:00 +0000</pubDate>
     <description>29 December, 08:48. 198 km, 62 minutes, alone, across Lake Neusiedl, past Vienna and over the Vienna Woods. The first flight after the test that nobody had to approve.Winter flying in eastern Austria is a lottery: either a layer of low stratus sits over the Vienna Basin until midday, or it is the clearest day of the year. A departure just before nine on 29 December, at 103 knots average and …</description>
-  </item>
-  <item>
-    <title>The skill test</title>
-    <link>https://csiess85.github.io/flugtagebuch/en/chapters/07-the-skill-test/#f64</link>
-    <guid isPermaLink="false">en-flug-64</guid>
-    <pubDate>Thu, 27 Nov 2025 13:07:00 +0000</pubDate>
-    <description>27 November, block off 13:07, OE-AKW. In the crew field: Siess / H. Role: PIC. This is the practical test.245 km, 87 minutes, 5,089 ft, three landings, out into the Bucklige Welt and back. Everything practised over eight months in a single flight: navigation by chart, diverting from the plan, exercises at altitude, emergency procedures, circuits, landings — and all the while an examiner in the …</description>
-  </item>
-  <item>
-    <title>Moving over to the Cessna</title>
-    <link>https://csiess85.github.io/flugtagebuch/en/chapters/07-the-skill-test/#f63</link>
-    <guid isPermaLink="false">en-flug-63</guid>
-    <pubDate>Sat, 22 Nov 2025 08:34:00 +0000</pubDate>
-    <description>Five days before the test, and for the first time in 62 flights a different type: D-EUTC, a Cessna 172S. Saturday morning, 08:34, 123 km out to Lake Neusiedl, 41 minutes.Going from the Aquila to the C172 is a change of philosophy. The Aquila is a modern composite aeroplane, light, smooth, with crisp controls. The 172 is a high-wing machine made of sheet metal, heavier, more sluggish, …</description>
   </item>
 </channel>
 </rss>

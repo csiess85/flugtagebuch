@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-  <title>Flugtagebuch — 92 VFR-Flüge</title>
+  <title>Flugtagebuch — 94 VFR-Flüge</title>
   <link>https://csiess85.github.io/flugtagebuch/</link>
-  <description>92 VFR-Flüge zwischen März 2025 und Juli 2026, erzählt als Blog.</description>
+  <description>94 VFR-Flüge zwischen März 2025 und August 2026, erzählt als Blog.</description>
   <language>de</language>
+  <item>
+    <title>Der Rückweg nördlich der Berge</title>
+    <link>https://csiess85.github.io/flugtagebuch/kapitel/11-ein-vormittag-nach-zell-am-see/#f94</link>
+    <guid isPermaLink="false">flug-94</guid>
+    <pubDate>Tue, 04 Aug 2026 10:53:00 +0000</pubDate>
+    <description>10:53 Block off, 95 Minuten nach der Landung. Zurück nach Bad Vöslau, aber nicht auf demselben Weg: 338 km, 98 Minuten, 9.292 ft — nördlich an den Bergen vorbei statt mitten hindurch.Hinaus über Kaprun, dann nach Nordosten: der Gosaukamm, der Wolfgangsee, der Attersee, der Traunsee. Ab Gmunden liegt das Alpenvorland unter der Fläche — Steyr, die Donau bei Ybbs, St. Pölten —, dann der Wienerwald …</description>
+  </item>
+  <item>
+    <title>Mit der PA-28 über die Alpen</title>
+    <link>https://csiess85.github.io/flugtagebuch/kapitel/11-ein-vormittag-nach-zell-am-see/#f93</link>
+    <guid isPermaLink="false">flug-93</guid>
+    <pubDate>Tue, 04 Aug 2026 07:37:00 +0000</pubDate>
+    <description>07:37 Block off, fünf Tage nach der ersten Stunde auf dem Muster. 316 km, 92 Minuten, 9.039 ft — mit der PA-28 quer über die Alpen nach Zell am See.Die Route ist über weite Strecken dieselbe wie im März: die Hohe Wand, Mariazell, der Erzberg, das Gesäuse, das Ennstal, der Grimming. Danach weiter nördlich als damals — über den Hallstätter See und den Gosaukamm, dann am Hochkönig entlang und über …</description>
+  </item>
   <item>
     <title>Ein neues Muster zum Schluss</title>
     <link>https://csiess85.github.io/flugtagebuch/kapitel/10-bodensee-und-der-lange-weg-heim/#f92</link>
     <guid isPermaLink="false">flug-92</guid>
     <pubDate>Thu, 30 Jul 2026 13:27:00 +0000</pubDate>
-    <description>Der letzte Eintrag im Buch, und noch einmal etwas Neues: die OE-KBS, eine Piper PA-28 Archer. Das dritte Muster, mit einem neuen Namen rechts — T.181 km, 67 Minuten, sechs Landungen, 4.878 ft, über die Hohe Wand und zurück. Der Umstieg auf ein neues Muster fängt immer gleich an: Platzrunden, Landungen, Gefühl bekommen.Die PA-28 ist wieder ein anderes Tier als Aquila und Cessna: ein Tiefdecker aus …</description>
+    <description>Wieder etwas Neues: die OE-KBS, eine Piper PA-28 Archer. Das dritte Muster, mit einem neuen Namen rechts — T.181 km, 67 Minuten, sechs Landungen, 4.878 ft, über die Hohe Wand und zurück. Der Umstieg auf ein neues Muster fängt immer gleich an: Platzrunden, Landungen, Gefühl bekommen.Die PA-28 ist wieder ein anderes Tier als Aquila und Cessna: ein Tiefdecker aus Blech, breit, gutmütig, mit einer …</description>
   </item>
   <item>
     <title>Der lange Weg heim: 550 Kilometer quer über Österreich</title>
@@ -101,7 +115,7 @@
     <link>https://csiess85.github.io/flugtagebuch/kapitel/09-ueber-die-grenzen/#f79</link>
     <guid isPermaLink="false">flug-79</guid>
     <pubDate>Wed, 18 Mar 2026 16:42:00 +0000</pubDate>
-    <description>221 km in 68 Minuten, allein, ab 16:42. Über den Wienerwald, an Wien vorbei, hinaus zum Neusiedler See, über das Leithagebirge zurück. Im Logbuch steht als Einzige aller 92 Zeilen: Tag/Nacht.Der Flug beginnt bei Tageslicht und endet im Dunkeln — Nachtvon 17:35, die Landung um 18:01 zählt als Nachtlandung. Das ist die erste praktische Anwendung der Berechtigung, die vier Wochen davor fertig wurde: …</description>
+    <description>221 km in 68 Minuten, allein, ab 16:42. Über den Wienerwald, an Wien vorbei, hinaus zum Neusiedler See, über das Leithagebirge zurück. Im Logbuch steht als Einzige aller 94 Zeilen: Tag/Nacht.Der Flug beginnt bei Tageslicht und endet im Dunkeln — Nachtvon 17:35, die Landung um 18:01 zählt als Nachtlandung. Das ist die erste praktische Anwendung der Berechtigung, die vier Wochen davor fertig wurde: …</description>
   </item>
   <item>
     <title>Über die Tauern nach Zell am See</title>
@@ -200,20 +214,6 @@
     <guid isPermaLink="false">flug-65</guid>
     <pubDate>Mon, 29 Dec 2025 08:48:00 +0000</pubDate>
     <description>29. Dezember, 08:48. 198 km, 62 Minuten, allein, über den Neusiedler See, an Wien vorbei und über den Wienerwald. Der erste Flug nach der Prüfung, den niemand mehr genehmigen musste.Winterfliegen in Ostösterreich ist eine Lotterie: entweder liegt eine Hochnebeldecke bis Mittag über dem Wiener Becken, oder es ist der klarste Tag des Jahres. Ein Start um kurz vor neun am 29. Dezember, mit 103 …</description>
-  </item>
-  <item>
-    <title>Die Flugprüfung</title>
-    <link>https://csiess85.github.io/flugtagebuch/kapitel/07-die-pruefung/#f64</link>
-    <guid isPermaLink="false">flug-64</guid>
-    <pubDate>Thu, 27 Nov 2025 13:07:00 +0000</pubDate>
-    <description>27. November, 13:07 Block off, OE-AKW. Im Crew-Feld: Siess / H. Rolle: PIC. Das ist die praktische Prüfung.245 km, 87 Minuten, 5.089 ft, drei Landungen, hinaus in die Bucklige Welt und zurück. Alles, was in acht Monaten geübt wurde, in einem einzigen Flug: Navigation nach Karte, Abweichen vom Plan, Übungen in der Höhe, Notverfahren, Platzrunden, Landungen — und nebenbei die ganze Zeit ein Prüfer …</description>
-  </item>
-  <item>
-    <title>Umstieg auf die Cessna</title>
-    <link>https://csiess85.github.io/flugtagebuch/kapitel/07-die-pruefung/#f63</link>
-    <guid isPermaLink="false">flug-63</guid>
-    <pubDate>Sat, 22 Nov 2025 08:34:00 +0000</pubDate>
-    <description>Fünf Tage vor der Prüfung, und zum ersten Mal nach 62 Flügen ein anderes Muster: die D-EUTC, eine Cessna 172S. Samstagfrüh, 08:34, 123 km hinaus zum Neusiedler See, 41 Minuten.Der Wechsel von der Aquila zur C172 ist ein Wechsel der Philosophie. Die Aquila ist ein modernes Kompositflugzeug, leicht, glatt, mit knackigen Rudern. Die 172 ist ein Hochdecker aus Blech, schwerer, träger, …</description>
   </item>
 </channel>
 </rss>
